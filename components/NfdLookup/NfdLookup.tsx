@@ -42,14 +42,17 @@ export default function NfdLookup({
     [debouncedQuery, value]
   )
 
+  const prefix = isValidName(debouncedQuery)
+    ? debouncedQuery.toLowerCase()
+    : trimExtension(debouncedQuery).toLowerCase()
+
   const { data, isInitialLoading, error } = useNfdSearch({
     params: {
-      prefix: trimExtension(debouncedQuery).toLowerCase(),
+      prefix,
       limit
     },
     options: {
-      enabled: enableQuery,
-      keepPreviousData: true
+      enabled: enableQuery
     }
   })
 
