@@ -2,8 +2,7 @@ import { Combobox, Transition } from '@headlessui/react'
 import Image from 'next/image'
 import { Fragment, useMemo, useState } from 'react'
 import useNfdSearch, { nfdSearchByPrefix } from './NfdLookup.hooks'
-import { truncateAddress } from './NfdLookup.utils'
-import type { NfdRecordThumbnail } from './NfdLookup.types'
+import { NfdRecordThumbnail } from './NfdLookup.types'
 import Tooltip from 'components/Tooltip'
 import styles from 'styles/Tooltip.module.css'
 import useDebounce from 'hooks/useDebounce'
@@ -164,15 +163,15 @@ export default function NfdLookup({
               'cursor-default select-none py-2 px-4 truncate'
             )}
           >
-            {suggestion.name}
+            <span className="font-medium">{suggestion.name}</span>
             {suggestion.depositAccount && (
               <span
                 className={classNames(
-                  active || suggestion.name === value ? 'text-white/75' : 'text-gray-400',
+                  active || suggestion.name === value ? 'text-white' : '',
                   'ml-4'
                 )}
               >
-                {truncateAddress(suggestion.depositAccount)}
+                {suggestion.depositAccount}
               </span>
             )}
           </li>
