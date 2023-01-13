@@ -167,7 +167,11 @@ export default function Transact() {
                 value={receiver}
                 onChange={(value) => setReceiver(value)}
                 placeholder={activeAddress}
+                ariaDescribedby="lookup-description"
               />
+              <p className="mt-2 text-sm text-gray-500" id="lookup-description">
+                Paste an address or search for an NFD
+              </p>
             </div>
           </div>
 

@@ -15,6 +15,7 @@ interface NfdLookupProps {
   placeholder?: string
   exclude?: string | string[]
   limit?: number
+  ariaDescribedby?: string
 }
 
 export default function NfdLookup({
@@ -23,7 +24,8 @@ export default function NfdLookup({
   className = '',
   placeholder,
   exclude,
-  limit = 10
+  limit = 10,
+  ariaDescribedby
 }: NfdLookupProps) {
   const debouncedQuery = useDebounce(value, 500)
 
@@ -191,6 +193,7 @@ export default function NfdLookup({
             autoComplete="new-password"
             spellCheck="false"
             placeholder={placeholder}
+            aria-describedby={ariaDescribedby}
           />
           {nfdMatch && (
             <div className="absolute inset-y-0 right-0 flex items-center pr-2.5">
