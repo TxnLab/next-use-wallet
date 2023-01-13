@@ -18,7 +18,11 @@ export default function Connect() {
       return null
     }
 
-    if (provider.metadata.id === PROVIDER_ID.MYALGO) {
+    const showMultiAccountSelect = [PROVIDER_ID.MYALGO, PROVIDER_ID.PERA].includes(
+      provider.metadata.id
+    )
+
+    if (showMultiAccountSelect) {
       const options = provider.accounts.map((account) => ({
         value: account.address,
         label: (
