@@ -279,17 +279,17 @@
   dependencies:
     mini-svg-data-uri "^1.2.3"
 
-"@tanstack/query-core@4.22.0":
-  version "4.22.0"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-4.22.0.tgz#7a786fcea64e229ed5d4308093dd644cdfaa895e"
-  integrity sha512-OeLyBKBQoT265f5G9biReijeP8mBxNFwY7ZUu1dKL+YzqpG5q5z7J/N1eT8aWyKuhyDTiUHuKm5l+oIVzbtrjw==
+"@tanstack/query-core@4.29.14":
+  version "4.29.14"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-4.29.14.tgz#569de51719a0f4445fabff775012d5c09a173b96"
+  integrity sha512-ElEAahtLWA7Y7c2Haw10KdEf2tx+XZl/Z8dmyWxZehxWK3TPL5qtXtb7kUEhvt/8u2cSP62fLxgh2qqzMMGnDQ==
 
 "@tanstack/react-query@^4.22.0":
-  version "4.22.0"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-4.22.0.tgz#aaa4b41a6d306be6958018c74a8a3bb3e9f1924c"
-  integrity sha512-P9o+HjG42uB/xHR6dMsJaPhtZydSe4v0xdG5G/cEj1oHZAXelMlm67/rYJNQGKgBamKElKogj+HYGF+NY2yHYg==
+  version "4.29.14"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-4.29.14.tgz#5e836d470c1c85d1aa3e53a6fc64f788dddb2ee5"
+  integrity sha512-wh4bd/QIy85YgTDBtj/7/9ZkpRX41QdZuUL8xKoSzuMCukXvAE1/oJ4p0F15lqQq9W3g2pgcbr2Aa+CNvqABhg==
   dependencies:
-    "@tanstack/query-core" "4.22.0"
+    "@tanstack/query-core" "4.29.14"
     use-sync-external-store "^1.2.0"
 
 "@txnlab/use-wallet@1.2.11":
