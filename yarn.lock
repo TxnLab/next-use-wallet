@@ -26,6 +26,18 @@
     lottie-web "^5.9.6"
     qr-code-styling "1.6.0-rc.1"
 
+"@daffiwallet/connect@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@daffiwallet/connect/-/connect-1.0.3.tgz#fe77b73ad1e867e6171cb8fbdee01cb7f379d0ff"
+  integrity sha512-H2YaVfvsAW57s23JpJD9cP97hJsO527YtoT/Iga/fBlUUe6akXGi5Uvz3q6KAI8jD7GJ4N3qQTpK4nFbTHmDyQ==
+  dependencies:
+    "@evanhahn/lottie-web-light" "5.8.1"
+    "@walletconnect/client" "^1.8.0"
+    "@walletconnect/types" "^1.8.0"
+    bowser "2.11.0"
+    buffer "^6.0.3"
+    qr-code-styling "^1.5.0"
+
 "@eslint-community/eslint-utils@^4.2.0":
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/@eslint-community/eslint-utils/-/eslint-utils-4.4.0.tgz#a23514e8fb9af1269d5f7788aa556798d61c6b59"
@@ -2626,6 +2638,13 @@ qr-code-styling@1.6.0-rc.1:
   version "1.6.0-rc.1"
   resolved "https://registry.yarnpkg.com/qr-code-styling/-/qr-code-styling-1.6.0-rc.1.tgz#6c89e185fa50cc9135101085c12ae95b06f1b290"
   integrity sha512-ModRIiW6oUnsP18QzrRYZSc/CFKFKIdj7pUs57AEVH20ajlglRpN3HukjHk0UbNMTlKGuaYl7Gt6/O5Gg2NU2Q==
+  dependencies:
+    qrcode-generator "^1.4.3"
+
+qr-code-styling@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/qr-code-styling/-/qr-code-styling-1.5.0.tgz#e2b34f5bd88a9cbe0a8e136dc4d94b96419fe1f9"
+  integrity sha512-7C+1cZGsZWH0BIRtv24faKZJwkxdYlynXktP9dDxKNSik2bqaUZck3B3MpQod/wqm9i3l4q7QsPGkRGKvcuqZw==
   dependencies:
     qrcode-generator "^1.4.3"
 

@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@blockshake/defly-connect": "^1.1.2",
+    "@daffiwallet/connect": "^1.0.3",
     "@headlessui/react": "^1.7.7",
     "@heroicons/react": "^2.0.13",
     "@json-rpc-tools/utils": "^1.7.6",
