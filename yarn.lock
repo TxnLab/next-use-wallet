@@ -541,10 +541,10 @@
     "@tanstack/query-core" "4.29.14"
     use-sync-external-store "^1.2.0"
 
-"@txnlab/use-wallet@2.0.0-alpha.0":
-  version "2.0.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@txnlab/use-wallet/-/use-wallet-2.0.0-alpha.0.tgz#4228ecca4e42c65fa8950d190ed5f22fa6e67093"
-  integrity sha512-b6sSvQu8iQhLeNH1KldWW1ljvMSW4hLhUPUxhSL7kanVrce5E+sIfv8UbO6Hgk8yuVElGkkKNakSA0e5NNmKdw==
+"@txnlab/use-wallet@2.0.0-alpha.1":
+  version "2.0.0-alpha.1"
+  resolved "https://registry.yarnpkg.com/@txnlab/use-wallet/-/use-wallet-2.0.0-alpha.1.tgz#c50e94e9e271e03344f969bb564158becca7deb3"
+  integrity sha512-1DK/h45EAVUGhfnY+3M9oi9iqLK+bJMqdIWvb7DVoVoomZlw/8Mx8Iut70kbJo1/91oQsZZgWSoINTDM02xw/w==
   dependencies:
     immer "^9.0.15"
     zustand "^4.1.4"
