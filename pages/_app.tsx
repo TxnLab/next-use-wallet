@@ -21,7 +21,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
       {
         id: PROVIDER_ID.WALLETCONNECT,
         clientOptions: {
-          projectId: process.env.NEXT_PUBLIC_WC2_PROJECT_ID,
+          projectId: process.env.NEXT_PUBLIC_WC2_PROJECT_ID || '',
           relayUrl: process.env.NEXT_PUBLIC_WC2_RELAY_URL,
           metadata: {
             name: 'next-use-wallet',

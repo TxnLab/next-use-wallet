@@ -541,10 +541,10 @@
     "@tanstack/query-core" "4.29.14"
     use-sync-external-store "^1.2.0"
 
-"@txnlab/use-wallet@2.0.0-alpha.1":
-  version "2.0.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@txnlab/use-wallet/-/use-wallet-2.0.0-alpha.1.tgz#c50e94e9e271e03344f969bb564158becca7deb3"
-  integrity sha512-1DK/h45EAVUGhfnY+3M9oi9iqLK+bJMqdIWvb7DVoVoomZlw/8Mx8Iut70kbJo1/91oQsZZgWSoINTDM02xw/w==
+"@txnlab/use-wallet@2.0.0-alpha.3":
+  version "2.0.0-alpha.3"
+  resolved "https://registry.yarnpkg.com/@txnlab/use-wallet/-/use-wallet-2.0.0-alpha.3.tgz#779173d323d645d1ac4e1a2034d1a4344a60281b"
+  integrity sha512-kwmUJqWiU09ZlpcGORFrvmkcw3Uo9/cywBN+TmpZ1Rz5zlYO55Q9wAhB3dyRmtaDjVUt6uPhbcUKNklI+TEYog==
   dependencies:
     immer "^9.0.15"
     zustand "^4.1.4"
@@ -815,7 +815,7 @@
     pino "7.11.0"
     tslib "1.14.1"
 
-"@walletconnect/modal@^2.4.7":
+"@walletconnect/modal@2.4.7":
   version "2.4.7"
   resolved "https://registry.yarnpkg.com/@walletconnect/modal/-/modal-2.4.7.tgz#fd84d6f1ac767865d63153e32150f790739a189a"
   integrity sha512-kFpvDTT44CgNGcwQVC0jHrYed4xorghKX1DOGo8ZfBSJ5TJx3p6d6SzLxkH1cZupWbljWkYS6SqvZcUBs8vWpg==
@@ -865,7 +865,7 @@
   dependencies:
     tslib "1.14.1"
 
-"@walletconnect/sign-client@^2.8.1":
+"@walletconnect/sign-client@2.8.1":
   version "2.8.1"
   resolved "https://registry.yarnpkg.com/@walletconnect/sign-client/-/sign-client-2.8.1.tgz#8c6de724eff6a306c692dd66e66944089be5e30a"
   integrity sha512-6DbpjP9BED2YZOZdpVgYo0HwPBV7k99imnsdMFrTn16EFAxhuYP0/qPwum9d072oNMGWJSA6d4rzc8FHNtHsCA==
@@ -980,6 +980,14 @@
   dependencies:
     buffer "6.0.3"
     valtio "1.10.5"
+
+"@web3modal/sign-html@^2.4.7":
+  version "2.4.7"
+  resolved "https://registry.yarnpkg.com/@web3modal/sign-html/-/sign-html-2.4.7.tgz#8280ad68b8c61f1389b712344a758e5f7cf15fe6"
+  integrity sha512-HsnhpJJfdyB9X5nrPV6gCXGSDju9oT4lZ53Vmaw5G4ZuGHC/X2zzoo1OhJSTFYP5IJ60gsj70SZpSWbSw3WAwg==
+  dependencies:
+    "@walletconnect/modal" "2.4.7"
+    "@walletconnect/sign-client" "2.8.1"
 
 "@web3modal/ui@2.4.7":
   version "2.4.7"
