@@ -37,7 +37,8 @@ export default function App({ Component, pageProps, router }: AppProps) {
       nodeServer: NODE_URL,
       nodePort: NODE_PORT,
       nodeToken: NODE_TOKEN
-    }
+    },
+    debug: true
   })
 
   return (
