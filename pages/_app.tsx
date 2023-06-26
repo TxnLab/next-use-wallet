@@ -34,6 +34,12 @@ export default function App({ Component, pageProps, router }: AppProps) {
             description: 'Next.js @txnlab/use-wallet example',
             url: 'https://next-use-wallet.vercel.app/',
             icons: ['https://next-use-wallet.vercel.app/nfd.svg']
+          },
+          modalOptions: {
+            explorerRecommendedWalletIds: [
+              // Fireblocks desktop wallet
+              '5864e2ced7c293ed18ac35e0db085c09ed567d67346ccb6f58a0327a75137489'
+            ]
           }
         }
       }
