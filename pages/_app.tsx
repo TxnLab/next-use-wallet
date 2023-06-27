@@ -4,7 +4,7 @@ import { Inter } from '@next/font/google'
 import { PeraWalletConnect } from '@perawallet/connect'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { WalletProvider, useInitializeProviders, PROVIDER_ID } from '@txnlab/use-wallet'
-import { Web3ModalSign } from '@web3modal/sign-html'
+import { WalletConnectModalSign } from '@walletconnect/modal-sign-html'
 import algosdk from 'algosdk'
 import Toaster from 'components/Toaster'
 import { NODE_NETWORK, NODE_PORT, NODE_TOKEN, NODE_URL } from 'constants/env'
@@ -25,7 +25,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
       { id: PROVIDER_ID.EXODUS },
       {
         id: PROVIDER_ID.WALLETCONNECT,
-        clientStatic: Web3ModalSign,
+        clientStatic: WalletConnectModalSign,
         clientOptions: {
           projectId: process.env.NEXT_PUBLIC_WC2_PROJECT_ID || '',
           relayUrl: process.env.NEXT_PUBLIC_WC2_RELAY_URL,
