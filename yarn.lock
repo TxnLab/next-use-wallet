@@ -541,7 +541,7 @@
     "@tanstack/query-core" "4.29.14"
     use-sync-external-store "^1.2.0"
 
-"@txnlab/use-wallet@^2.0.0":
+"@txnlab/use-wallet@2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@txnlab/use-wallet/-/use-wallet-2.0.0.tgz#8559be0a0c3075e6d6552268641d2189f5cc0661"
   integrity sha512-VJ47JT+s6VYAv1rCYYmFv/DrQd+KXDn0IAWvUkBiMVQniYoxt/XrfN8vZ1xnrsF7sVlZpDFPbQiK4TCrmTjncQ==
