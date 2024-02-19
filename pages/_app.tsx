@@ -38,7 +38,9 @@ export default function App({ Component, pageProps, router }: AppProps) {
           modalOptions: {
             explorerRecommendedWalletIds: [
               // Fireblocks desktop wallet
-              '5864e2ced7c293ed18ac35e0db085c09ed567d67346ccb6f58a0327a75137489'
+              '5864e2ced7c293ed18ac35e0db085c09ed567d67346ccb6f58a0327a75137489',
+              // D'Cent Wallet
+              'a1f506a38f39b672b369bd13b68abbbd81f83a0489e6625f2bf12aa0389c22ae'
             ]
           }
         }
